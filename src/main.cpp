@@ -33,7 +33,7 @@ void loop()
       HTTPClient https;
   
       Serial.print("[HTTPS] begin...\n");
-      if (https.begin(*client, "https://paste.mikkel.cc/LgX4Paek/+inline")) {  // HTTPS
+      if (https.begin(*client, SSL_TEST_URL)) {  // HTTPS
         Serial.print("[HTTPS] GET...\n");
         // start connection and send HTTP header
         int httpCode = https.GET();
