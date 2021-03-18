@@ -67,7 +67,7 @@ void loop()
 
   Serial.println();
   Serial.println("Waiting 10s before the next round...");
-  delay(10000);
+  delay(60000);
 }
 
 void setClock()
