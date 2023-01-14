@@ -40,7 +40,7 @@ void loop()
   
         // httpCode will be negative on error
         if (httpCode > 0) {
-          // HTTP header has been send and Server response header has been handled
+          // HTTP header has been sent and Server response header has been handled
           Serial.printf("[HTTPS] GET... code: %d\n", httpCode);
   
           // file found at server
