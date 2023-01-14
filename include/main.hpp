@@ -7,7 +7,7 @@
 
 #include "secrets.hpp"
 
-#define SSL_TEST_URL "https://paste.mikkel.cc/enNpecND/+inline"
+#define SSL_TEST_URL "https://raw.githubusercontent.com/Duckle29/esp32-certBundle/main/readme.md"
 
 extern const uint8_t x509_crt_bundle_start[] asm("_binary_src_x509_crt_bundle_start");
 extern const uint8_t x509_crt_bundle_end[] asm("_binary_src_x509_crt_bundle_end");
